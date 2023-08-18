@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{background-color: #04293A;}
+
+hr
+{
+border-style: none;
+border-top-style: dotted;
+border-color: grey;
+border-width: 5px;
+width: 5%}
+
+.pos-text {
+color: white;
+text-align: center;
+font-size: 1.2em;
+}
+
+h1
+{color: #66bfbf;
+text-align: center;}
+
+ul {
+text-align: center;
+list-style-position: inside;
+width: 200px;
+margin: 0 auto;
+padding: 0;
+margin-bottom: 10px;
+font-size: 1.2em;
+}
+
+li
+{color: #00FFAB;
+list-style-position: inside;
+text-align: left;
+margin-bottom: 10px;}
+
+
+h3
+{color: #D4ADFC;
+text-align: center;}
+
+.pos-image {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#head {
+background-color: #6554AF;
+padding: 7% 15%;
+}
+
+#bio {
+background-color: #04293A;
+}
+
+#skills {
+background-color: darkmagenta;
+}
+
+#wexp {
+background-color: darkblue;
+}
+
+#myedu {
+background-color: darkslateblue;
+}
+
+#contactme {
+background-color: #04293A;
+}
